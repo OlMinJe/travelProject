@@ -1,0 +1,45 @@
+/* 글자 속성 */
+* { word-break: keep-all; font-family: 'SCDream' !important; font-size: 15px; line-height: 21px; font-weight: 300; }
+.tc { text-align: center; }
+
+/* ul li 스타일 x */
+ul { padding-inline-start: 0;}
+dl, ol, ul { margin: 0; padding: 0; }
+body li { list-style: none; }
+
+/* 부트스트랩 덮어씌우기 */
+.col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1, .col-0 { padding: 0; float: left; }
+
+/* TODO: 모든 페이지의 최상위 부모는 <div class="col-12">로 시작해야한다 */
+body > div.col-12 { /*max-width: 1330px;*/ margin: 0 auto; padding: 5rem 1.5rem; }
+
+/* 버튼 속성 일부 초기화 */
+button { text-align: left; border: none; outline: none; background-color: #fff;}
+button:focus{ border: none; outline:none; }
+
+/* h 태그 속성 일부 초기화 */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { margin: 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+/* a태그 */
+a { color: #000; cursor: pointer; }
+a:hover { color: #000; text-decoration: none; }
+
+/* p태그 */
+p {  margin-bottom: 0; }
+
+/* label */
+label { margin-bottom: 0; }
+
+/* dd */
+dd { margin-bottom: 0; margin-left: 0; }
+
+/* container */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl { padding-right: 0; padding-left: 0; margin-right: 0; margin-left: 0; }
+
+
+/* hr */
+hr { margin-top: 0; margin-bottom: 0; border: 0; border-top: 1px solid; }
+
+/* button */
+button { cursor: pointer; padding: 0; }

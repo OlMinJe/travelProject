@@ -1,0 +1,30 @@
+/* 공통 */
+.title { font-size: 2rem; line-height: 2.6rem; font-weight: 600; text-align: center;}
+.content { min-height: 35rem; padding: 1rem; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+table tr { border: 1px solid #ccc; text-align: center; }
+
+/* header */
+header.col-12, footer.col-12 { padding: 1.5rem 2rem; }
+header .menu { display: inline-block; text-align: center; }
+header .headerUser_{ float: right; text-align: right; }
+
+/* join.html */
+.join .title { float: inherit; }
+.join ul { float: initial; padding: 6rem 1rem 2rem; margin-left: auto; margin-right: auto; }
+.join li { display:flex; margin-left: auto; margin-right: auto; margin-bottom: 2rem; }
+.join li:last-child { margin-bottom: 0; } 
+.join label { width: 20%; }
+.join input { width: 50%; }
+.join button { margin-left: 9%; padding: 5px; width: 100px; border-radius: 10px; background-color: #ccc; text-align: center; }
+.join button#join_btn { margin-left: 0; }
+
+/* login.html */
+.login article { display: flex; flex-direction: column; align-items: center; }
+
+/* main.html */
+.content .planList { min-height: inherit; padding: 0 10px; }
+.planCreate { min-height: inherit; }
+.planCreate button { padding: 5px; background-color: bisque; text-align: center; }
+
+/* planCreate */
+.create_wrap { padding: 2rem 1rem; }
